@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921805338535",
+    "project_id": "hans-guitarworks",
+    "storage_bucket": "hans-guitarworks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921805338535:android:d847651ae6b25e19362882",
+        "android_client_info": {
+          "package_name": "com.hanprakoso.hansguitarworks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwovOS1sPG5dJo3om1Ijmnrb4_MOHIe7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
