@@ -23,7 +23,7 @@ class Akun {
 class AkunService {
   final CollectionReference akunCollection = FirebaseFirestore.instance.collection('akun');
 
-  // mendapatkan akun dari database firebase
+  // mendapatkan akun dari database firebase untuk login
   Future<Akun?> getAkun(String userid) async {
     QuerySnapshot snapshot = await akunCollection.where('userid', isEqualTo: userid).get();
 
@@ -47,7 +47,7 @@ class AkunService {
     }
   }
 
-  // menambahkan akun ke database firebase
+  // menambahkan akun ke database firebase untuk register
   Future<void> addAkun({
     required String userid,
     required String password,
